@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Add Information</h1>
+
+    <form action="/" method="post">
+        <fieldset>
+            <legend>Your Details</legend>
+            <Label>First Name: <input id="FName" placeholder="First Name" type="text" value="" /></Label><br />
+            <Label>Last Name: <input id="LName" placeholder="Last Name" type="text" value="" /></Label><br />
+            <label for="EMail">Email:</label>
+            <input type="email" id="EMail" placeholder="me@mail.com" value="" /><br />
+            <label>Phone: <input type="number" placeholder="22668899" value="" /></label><br />
+            <label>Address: <input type="text" placeholder="House number, street, city" value="" /></label><br />
+
+
+            <input type="text" name="name" value="" /><br />
+            <label><button type="submit" id="submit">Submit Form</button></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Details and Enquiry</legend>
+            <b>Name</b><br> <input type="text"><br>
+            TelePhone<br> <input type="text"><br>
+            Email Address<br> <input type="text"><br>
+
+
+            <b>Message:</b><br> <textarea rows="8" style="height:auto;"> This is sample text  </textarea> <br />
+            <input type="button" name="name" value="Send" />
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
